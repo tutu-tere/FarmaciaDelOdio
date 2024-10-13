@@ -6,12 +6,12 @@ import { getFirestore } from 'firebase/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyAnxNnthygqjfLL3NxMBpkagXRuuu0Xjso',
-  authDomain: 'farmacia-9b457.firebaseapp.com',
-  projectId: 'farmacia-9b457',
-  storageBucket: 'farmacia-9b457.appspot.com',
-  messagingSenderId: '487746226588',
-  appId: '1:487746226588:web:a38c6fd9db9ab1ad1d6059',
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 }
 
 // Initialize Firebase
